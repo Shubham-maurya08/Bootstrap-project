@@ -1,0 +1,319 @@
+body{
+    margin: 0px;
+}
+#nav{
+    margin-left: 550px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-1{
+    background-image: url(./Untitled-2.jpeg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.world{
+    color: #eb6b16;
+    font-size: 20px;
+    font-weight: bold;
+}   
+.sam{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#drop-btn{
+    width: 125px;
+    height: 27px;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+#nav-2{
+    color: white;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
+.div-2{
+    justify-content: center;
+    margin-top: 180px;
+}
+#h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+#p1{
+    color: #cf7240;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+.login-btn{
+    background-color: #f76905;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 80px;
+    margin-top: 7px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar{
+    width: 60px;
+    height: 250px;
+    border-radius: 50px;
+    border: 1px solid #cf7240;
+    background-color: #3a3b3d;
+    position: absolute;
+    margin-top: 100px;
+}
+#sidebar-img{
+    height: 25px;
+    margin-left: 17px;
+    margin-top: 15px;
+    /* transform: scale(1); */
+}
+#sidebar-img:hover{
+    transform: scale(1.2);
+}
+#side-hr{
+    color: #cf7240;
+    margin-bottom: -3px;
+}
+.subs{
+    background-color: #f76905;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: none;
+    margin-left: 500px;
+    height: 37px;
+    width: 180px;
+}
+.subs:hover{
+    box-shadow: 2px 2px 3px grey;
+}
+.call{
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    margin-left: 1000px;
+    border-radius: 50%;
+}
+.call-p{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    transform: rotate(360deg);
+    animation: rotate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.game-box{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-image: url(./abstract.jpeg);
+    background-size: cover;
+}
+.game-box-in{
+    display: flex;
+    justify-content: center;
+}
+#card{
+    height: 370px;
+    width: 175px;
+    margin: 5px;
+    background-color:#3a3b3d;
+    transition: .5s;
+}
+#card:hover{
+    /* transform: rotate(7deg); */
+    scale: 1.1;
+}
+#card h5{
+    color: white;
+    margin-left: 3px;
+    margin-top: 3px;
+    font-size: 18px;
+    font-family: carnas;
+}
+
+#card p{
+    color: lightgray;
+    margin-left: 3px;
+    font-size: 10px;
+}
+#game-feature{
+    color: #f76905;
+    font-family: carnas;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box-2{
+    background-color: #141414;
+    height: 260px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#sec{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#img-1{
+    transform: rotate(-25deg);
+}
+.same{
+    margin-top: 25px;
+    text-align: center;
+}
+.same h4{
+    margin-top: 15px;
+    font-size: 15px;
+    color: white;
+}
+.same p{
+    margin-top: 7px;
+    font-size: 13px;
+    color: rgb(181, 179, 179);
+}
+.box-3{
+    background-color: #212224;
+    height: 370px;
+    width: 100%;
+}
+@font-face {
+    font-family: carnas;
+    src: url(./Carnas\ Light.otf);
+}
+#Platform{
+    color: #f76905;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    font-family: carnas;
+}
+.imgs{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#hr{
+    border: 1.5px solid #f76905;
+}
+#imgs{
+    margin-left: 20px;
+}
+.points{
+    padding-left: 520px;
+}
+.subs-2{
+    background-color: #f76905;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: none;
+    height: 37px;
+    width: 180px;
+}
+.subs-2:hover{
+    box-shadow: 2px 2px 3px grey;
+}
+#subs-point{
+    font-size: 15px;
+    font-family: carnas;
+    font-style: italic;
+}
+#img-pnt{
+    display: flex;
+}
+#only{
+    margin-left: 45px;
+    color: #cf7240;
+    margin-top: 10px;
+    font-family: carnas;
+}
+
+.div-4a{
+    height: 270px;
+    width: 100%;
+    background-image: url(./nbottom.jpeg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.div-4b{
+    display: flex;
+    justify-content: space-between;
+}   
+.bttm{
+    display: flex;
+}
+.bttm div{
+  margin-right: 50px;  
+} 
+li{
+    list-style-type: none;
+}
+.we{
+    color: #f76905;
+    margin-left: 85px;
+    font-size: 25px;
+    font-family: carnas;
+}
+.btm-img img{
+    margin-right: 5px;
+}
+#last-p{
+    margin-top: 40px;
+    text-align: center;
+    font-size: small;
+}
+.disclimer{
+    color: #f76905;
+    font-weight: 500;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+@media(max-width:500px){
+    .div-1 .main{
+        width: 550px;
+        display: flex;
+        flex: wrap;             
+    }
+
+}
